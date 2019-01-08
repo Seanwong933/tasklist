@@ -35,6 +35,6 @@ services:
     depends_on:
       - service
     ports:
-      - 80:80
+      - 3080:80
     container_name: tasklist-web
     
